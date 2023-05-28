@@ -169,7 +169,7 @@ sidebar:
     # Allows to add links that are not pages included into the project
     # Display additional links anywhere into the sidebar
     additional_links:
-        -   url: https://github.com/olivier3lanc/LibDoc-remote-demo # Local or remote URL
+        -   url: https://github.com/IITDh-Robotics/DroneDash-23/ # Local or remote URL
             title: <span class="i-github u-mr-xxs"></span> View on GitHub # Link text
             order: 0 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
             # category: Showcase # Add this this link into a category just like pages
@@ -178,32 +178,28 @@ sidebar:
         #     order: 100 # Sets the rank of the page link into the sidebar, higher values give lower rank for the page link
         #     iframe_mode: true
         #     category: Features
-        # Example URL
-        -   url: https://olivier3lanc.github.io/Scroll-Btween/
-            title: Scroll Btween
-            order: 500
-            category: Examples using LibDoc
-        -   url: https://olivier3lanc.github.io/Scroll-Frames/
-            title: Scroll Frames
-            order: 500
-            category: Examples using LibDoc
-        -   url: https://olivier3lanc.github.io/seemap/
-            title: SEEMAP
-            order: 500
-            category: Examples using LibDoc
-        # Example remote URL
-        -   url: https://github.com/olivier3lanc/Jekyll-LibDoc
-            title: <span class="i-github u-mr-xxs"></span> Jekyll LibDoc
+        # ROS Resources
+        -   url: https://wiki.ros.org/
+            title: ROS Wiki
             order: 510
-            category: External resources
-        -   url: https://pages.github.com
-            title: Github Pages
+            category: ROS Resources
+        -   url: https://wiki.ros.org/ROS/Tutorials
+            title: ROS Tutorials
             order: 510
-            category: External resources
-        -   url: https://jekyllrb.com
-            title: Jekyll
+            category: ROS Resources
+        -   url: https://youtube.com/playlist?list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt
+            title: Getting Started With ROS | Articulated Robotics on Youtube
             order: 510
-            category: External resources
+            category: ROS Resources
+        # PX4 Autopilot Resources
+        -   url: https://docs.px4.io/v1.13/en/flight_modes/#multicopter
+            title: Flight Modes
+            order: 520
+            category: PX4 Autopilot Resources
+        -   url: https://docs.px4.io/v1.13/en/ros/ros1.html
+            title: PX4 User Guide
+            order: 520
+            category: PX4 Autopilot Resources
 
 # BADGES
 # Feature that allows to display badges into the footer https://shields.io image html and url
